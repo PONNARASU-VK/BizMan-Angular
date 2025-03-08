@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+    <span style="margin-top: 5%; margin-left: 5%; font-size: 25px;">BizMan Dashboard</span>
+  </mat-toolbar>
+  
+  <div class="dashboard-content" style="margin-top: 10%;" >
+    <mat-card class="scanner-card" (click)="openScanner()">
+      <mat-card-header>
+        <mat-card-title>Scan Barcode</mat-card-title>
+      </mat-card-header>
+      <!-- dashboard.component.html -->
+      <!-- dashboard.component.html -->
+      <img src="assets/EAN-13.png" >
+      
+    </mat-card>
+  </div>
+  
+  <div id="scanner"></div> <!-- Camera feed here -->
